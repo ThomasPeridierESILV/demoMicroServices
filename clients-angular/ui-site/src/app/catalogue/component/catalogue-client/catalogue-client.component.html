@@ -1,0 +1,14 @@
+<div style="padding-top: 20px">
+    <div class="row">
+        <div *ngFor="let c of catalogues" class="col-md-4 produit">
+            <form (submit)="commander($event)">
+                <p class="ligne-produit">produit : {{c.produit.nom}}</p>
+                <p class="ligne-produit">prix : {{c.prix}} €</p>
+                <div class="ligne-produit">disponible : <span *ngIf="c.disponible">oui
+                <button class="btn btn-outline-success commander my-2 my-sm-0" type="submit" style="float: right">Commander</button></span>
+                    <span *ngIf="!c.disponible">non </span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+<div *ngFor="let c of commandes" class="col-lg-12" style="padding-top: 30px">
+  <p>commande id : {{c.id}}</p>
+  <p>client id : {{c.client.id}}</p>
+  <p>nom client : {{c.client.nom}}</p>
+  <p>prénom client : {{c.client.prenom}}</p>
+  <p>produit id : {{c.produit.id}}</p>
+  <p>nom produit : {{c.produit.nom}}</p>
+  <p>quantite : {{c.quantite}}</p>
+  <p>prix : {{c.prix}}</p>
+</div>

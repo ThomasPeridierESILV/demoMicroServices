@@ -19,12 +19,12 @@
     </properties>
 
     <modules>
-        <module>api-client</module>
-        <module>api-commande</module>
-        <module>api-produit</module>
-        <module>api-marketing</module>
-        <module>api-sav</module>
-        <module>api-stock</module>
+        <module>api/api-client</module>
+        <module>api/api-commande</module>
+        <module>api/api-produit</module>
+        <module>api/api-marketing</module>
+        <module>api/api-sav</module>
+        <module>api/api-stock</module>
         <module>domain</module>
     </modules>
 
