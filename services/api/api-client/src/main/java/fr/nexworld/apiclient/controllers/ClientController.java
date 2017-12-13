@@ -38,9 +38,4 @@ public class ClientController {
     Client put(@RequestBody Client client, @PathVariable Long id) {
         return this.clientService.put(client, id);
     }
-	
-	@GetMapping("/test")
-    String getTest() {
-        return "Hello, this is a Test !";
-    }
 }
