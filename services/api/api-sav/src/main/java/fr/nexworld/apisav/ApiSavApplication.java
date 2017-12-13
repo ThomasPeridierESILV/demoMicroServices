@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan(value = "fr.nexworld.domain.entities")
+@EntityScan(value = "fr.nexworld.apisav.entities")
 public class ApiSavApplication {
 
     public static void main(String[] args) {

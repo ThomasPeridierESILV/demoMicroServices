@@ -19,13 +19,9 @@
     </properties>
 
     <modules>
-        <module>api/api-client</module>
-        <module>api/api-commande</module>
-        <module>api/api-produit</module>
-        <module>api/api-marketing</module>
-        <module>api/api-sav</module>
-        <module>api/api-stock</module>
+        <module>api</module>
         <module>domain</module>
+        <module>composition</module>
     </modules>
 
     <dependencyManagement>
